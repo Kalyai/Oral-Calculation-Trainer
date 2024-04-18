@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Game</title>
+    <script>
+        var numbers = {{ numbers|safe }};
+        var displayTime = parseFloat('{{ display_time }}');
+        var delayTime = parseFloat('{{ delay_between_numbers }}');
+        var totalTime = parseFloat('{{ total_time }}');
+    </script>
+    <script src="{% static 'game_logic.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_game.css' %}">
+</head>
+<body>
+    <h2>Игра началась</h2>
+    <p id="number"></p>
+    <button id="result_button" style="display: none;">Дальше</button>
+</body>
+</html>

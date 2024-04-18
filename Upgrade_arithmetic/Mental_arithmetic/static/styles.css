@@ -1,0 +1,48 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #aec8e2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  border: 2px solid #f4c430;
+  border-radius: 64px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="number"] {
+  width: 72px;
+  height: 16px;
+}
+
+
+label {
+  font-size: 24px; /* Увеличиваем размер шрифта надписей */
+}
+
+button {
+  background-color: rgba(32, 232, 14, 0.3);
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  margin-top: 16px;
+  font-size: 16px;
+  cursor: pointer
+}
+
+button.ready {
+  background-color: rgba(32, 232, 14, 1); /* Изменяем цвет кнопки при заполненной форме */
+}
+
+
+h2 {
+  font-size: 40px; /* Увеличение размера шрифта заголовка */
+  margin-bottom: 24px; /* Увеличение расстояния между заголовком и формами */
+}

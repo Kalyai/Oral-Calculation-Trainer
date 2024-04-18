@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lose</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_lose.css' %}">
+</head>
+<body>
+    <h2>К сожалению, ответ неверный</h2>
+    <p>Правильный ответ: {{ request.session.correct_answer }}</p>
+    <button id="try_again_button">Попробовать еще раз</button>
+    <div id="falling-crosses-container"></div>
+    <script src="{% static 'falling_crosses.js' %}"></script>
+    <script>
+        document.getElementById('try_again_button').addEventListener('click', function() {
+            window.location.href = '/';
+        });
+    </script>
+</body>
+</html>

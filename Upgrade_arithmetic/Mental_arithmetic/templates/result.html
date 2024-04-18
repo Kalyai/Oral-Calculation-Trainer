@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{% static 'remove_number_input_arrows.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_result.css' %}">
+</head>
+<body>
+    <h2>Конец игры</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Проверить</button>
+    </form>
+    {% if result_message %}
+        <p>{{ result_message }}</p>
+    {% endif %}
+</body>
+</html>

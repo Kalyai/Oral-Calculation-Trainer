@@ -1,0 +1,32 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #aec8e2;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+h1 {
+  font-size: 64px; /* Увеличение размера заголовка */
+  margin-bottom: 16px; /* Увеличение расстояния между заголовком и следующим абзацем */
+}
+
+p {
+  font-size: 40px; /* Увеличение размера абзаца */
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh); /* Начальное положение - за пределами экрана сверху */
+  }
+  100% {
+    transform: translateY(0); /* Конечное положение - в верхней части экрана */
+  }
+}
+
+.falling-number {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  animation: fall 2s ease; /* Применяем анимацию к элементу на протяжении 2 секунд с эффектом ease */
+}

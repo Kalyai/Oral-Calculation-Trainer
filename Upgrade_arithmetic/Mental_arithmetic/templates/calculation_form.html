@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation Form</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'remove_number_input_arrows.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h2>Введите параметры</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Параметры готовы</button>
+    </form>
+    <script src="{% static 'button_style.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_ready_part.css' %}">
+    <script>
+        document.addEventListener("keypress", function(event) {
+            window.location.href = "{% url 'start_game' %}";
+        });
+    </script>
+</head>
+<body>
+  <h1>Готов?</h1>
+  <p>Нажми любую кнопку</p>
+  <div id="falling-numbers-container"></div>
+  <script src="{% static 'falling_numbers.js' %}"></script>
+</body>
+</html>

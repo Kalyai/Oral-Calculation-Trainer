@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Win</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_win.css' %}">
+</head>
+<body>
+    <h2>Поздравляю! Ты ответил правильно</h2>
+    <button id="try_again_button">Попробовать еще раз</button>
+    <div id="falling-checkmarks-container"></div>
+    <script>
+        document.getElementById('try_again_button').addEventListener('click', function() {
+            window.location.href = '/';
+        });
+    </script>
+    <script src="{% static 'falling_checkmarks.js' %}"></script>
+</body>
+</html>
