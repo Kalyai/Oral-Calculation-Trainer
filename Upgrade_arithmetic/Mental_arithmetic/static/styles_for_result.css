@@ -7,8 +7,8 @@ body {
 }
 
 h2 {
-  font-size: 80px; /* Размер заголовка */
-  margin-bottom: 40px; /* Отступ снизу от заголовка */
+  font-size: 45px; /* Размер заголовка */
+  margin-bottom: 60px; /* Отступ снизу от заголовка */
 }
 
 form {
@@ -17,11 +17,10 @@ form {
 
 input[type="text"],
 input[type="number"] {
-  padding: 12px; /* Увеличиваем внутренний отступ для текстовых полей */
+  padding: 16px; /* Увеличиваем внутренний отступ для текстовых полей */
   border: 2px solid #f4c430; /* Устанавливаем цвет рамки */
   border-radius: 64px; /* Задаем радиус границы */
-  font-size: 24px; /* Увеличиваем размер текста */
-  margin-bottom: 20px; /* Отступ снизу от текстовых полей */
+  font-size: 20px; /* Увеличиваем размер текста */
 }
 
 button[type="submit"] {
@@ -31,10 +30,10 @@ button[type="submit"] {
   border: none;
   border-radius: 18px;
   cursor: pointer;
-  font-size: 32px; /* Размер кнопки */
-  margin-top: 26px; /* Отступ сверху кнопки */
+  font-size: 20px; /* Размер кнопки */
+  margin-top: 30px; /* Отступ сверху кнопки */
 }
 
 label {
-  font-size: 36px; /* Увеличиваем размер текста для меток */
+  font-size: 30px; /* Увеличиваем размер текста для меток */
 }

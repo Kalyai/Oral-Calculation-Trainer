@@ -1,5 +1,3 @@
-// game.js
-
 function displayNumbers() {
     var index = 0;
     var intervalId = setInterval(function() {
