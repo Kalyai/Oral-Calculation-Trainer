@@ -1,5 +1,5 @@
 # Oral-Calculation-Trainer
-Проект ещё в разроботке
+Скоро распишу
 
 ## Стэк
 - ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square&logo=python)  
