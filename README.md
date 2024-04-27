@@ -43,4 +43,4 @@
 <img src="screenshots/scr5.png" alt="Screenshot" width="400" height="200">   
 <img src="screenshots/scr6.png" alt="Screenshot" width="400" height="200">  
 <img src="screenshots/scr7.png" alt="Screenshot" width="400" height="200">  
-<img src="screenshots/scr8.png" alt="Screenshot" width="400" height="200">   
+<img src="screenshots/scr8.png" alt="Screenshot" width="400" height="200">  
