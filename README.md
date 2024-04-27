@@ -34,3 +34,13 @@
 - ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=html5)  
 - ![CSS](https://img.shields.io/badge/-CSS-blueviolet?style=flat-square&logo=css3)  
 - ![Django](https://img.shields.io/badge/-Django-orange?style=flat-square&logo=django)
+
+## Скрины
+<img src="screenshots/scr1.png" alt="Screenshot" width="400" height="200">  
+<img src="screenshots/scr2.png" alt="Screenshot" width="400" height="200">   
+<img src="screenshots/scr3.png" alt="Screenshot" width="400" height="200">
+<img src="screenshots/scr4.png" alt="Screenshot" width="400" height="200">  
+<img src="screenshots/scr5.png" alt="Screenshot" width="400" height="200">   
+<img src="screenshots/scr6.png" alt="Screenshot" width="400" height="200">  
+<img src="screenshots/scr7.png" alt="Screenshot" width="400" height="200">  
+<img src="screenshots/scr8.png" alt="Screenshot" width="400" height="200">   
