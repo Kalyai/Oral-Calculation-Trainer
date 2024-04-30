@@ -20,6 +20,7 @@ def calculate(request):
             request.session['number_count'] = number_count
             request.session['delay_between_numbers'] = delay_between_numbers
             request.session['display_time'] = display_time
+
         return render(request, 'ready_part.html')
 
     else:
