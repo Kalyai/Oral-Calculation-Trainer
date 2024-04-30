@@ -6,15 +6,17 @@
     <title>Тренажер устного счета</title>
     <link rel="icon" type="image/png" sizes="48x48" href="{% static '/images/blue_brain.png' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'remove_number_input_arrows.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles_for_calculation_form.css' %}">
 </head>
 <body>
     <h2>Введите параметры</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Параметры готовы</button>
-    </form>
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Параметры готовы</button>
+        </form>
+    </div>
     <script src="{% static 'button_style.js' %}"></script>
 </body>
 </html>

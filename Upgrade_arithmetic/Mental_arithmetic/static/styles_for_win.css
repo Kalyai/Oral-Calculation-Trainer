@@ -1,13 +1,16 @@
 body {
   font-family: Trebuchet MS, sans-serif;
-  background-color: #aec8e2;
+  background: rgb(58,180,72);
+  background: linear-gradient(90deg, rgba(58,180,72,1) 0%, rgba(29,240,253,1) 50%, rgba(69,85,252,1) 100%);
   text-align: center;
   padding: 80px;
   color: white;
+  overflow: hidden;
 }
 
 h2 {
-  font-size: 36px; /* Размер заголовка */
+  padding-top: 50px;
+  font-size: 50px; /* Размер заголовка */
   margin-bottom: 20px; /* Отступ снизу от заголовка */
 }
 
@@ -18,7 +21,7 @@ button {
   border: none;
   border-radius: 24px;
   margin-top: 16px;
-  font-size: 24px;
+  font-size: 36px;
   cursor: pointer;
 }
 
@@ -44,3 +47,11 @@ button {
   animation: fall linear infinite, fadeOut 2s ease;
 }
 
+#table {
+  background: rgb(58,180,72);
+  background: linear-gradient(90deg, rgba(58,180,72,1) 0%, rgba(29,240,253,1) 50%, rgba(69,85,252,1) 100%);
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 80px;
+}

@@ -8,4 +8,4 @@ class CalculationForm(forms.Form):
     display_time = forms.FloatField(label="Время показа чисел", min_value=10**-6, max_value=20)
 
 class ResultForm(forms.Form):
-    user_answer = forms.IntegerField(label="Введите результат")
+    user_answer = forms.IntegerField(label="Введите результат", min_value=-10**7 * 20, max_value=10**7 * 20)

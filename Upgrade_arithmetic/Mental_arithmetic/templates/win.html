@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" href="{% static 'styles_for_win.css' %}">
 </head>
 <body>
-    <h2>Поздравляю! Ты ответил правильно</h2>
-    <button id="try_again_button">Попробовать еще раз</button>
+    <div id="table">
+        <h2>Поздравляю! Ты ответил правильно</h2>
+        <button id="try_again_button">Попробовать еще раз</button>
+    </div>
     <div id="falling-checkmarks-container"></div>
     <script>
         document.getElementById('try_again_button').addEventListener('click', function() {

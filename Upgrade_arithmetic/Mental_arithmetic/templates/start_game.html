@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <title>Тренажер устного счета</title>
     <link rel="icon" type="image/png" sizes="48x48" href="{% static '/images/blue_brain.png' %}">
-    <script>
-        var numbers = {{ numbers|safe }};
-        var displayTime = parseFloat('{{ display_time }}');
-        var delayTime = parseFloat('{{ delay_between_numbers }}');
-        var totalTime = parseFloat('{{ total_time }}');
-    </script>
-    <script src="{% static 'game_logic.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'styles_for_game.css' %}">
 </head>
 <body>
-    <h2>Игра началась</h2>
-    <p id="number"></p>
-    <button id="result_button" style="display: none;">Дальше</button>
+    <div>
+        <h2>Игра началась</h2>
+        <script>
+            var numbers = {{ numbers|safe }};
+            var displayTime = parseFloat('{{ display_time }}');
+            var delayTime = parseFloat('{{ delay_between_numbers }}');
+            var totalTime = parseFloat('{{ total_time }}');
+        </script>
+        <script src="{% static 'game_logic.js' %}"></script>
+        <p id="number"></p>
+        <button id="result_button" style="display: none;">Дальше</button>
+    </div>
 </body>
 </html>

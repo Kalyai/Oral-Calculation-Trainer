@@ -5,6 +5,7 @@ body {
   text-align: center;
   padding: 20px;
   color: rgb(32, 209, 14);
+  overflow: hidden;
 }
 
 input[type="text"],

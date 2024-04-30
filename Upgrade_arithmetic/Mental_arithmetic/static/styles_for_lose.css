@@ -1,19 +1,21 @@
 body {
   font-family: Trebuchet MS, sans-serif;
-  background-color: #aec8e2; /* Цвет фона */
-  text-align: center; /* Выравнивание текста по центру */
-  padding: 20px;
-  color: white; /* Белый цвет текста */
+  background: rgb(58,180,72);
+  background: linear-gradient(90deg, rgba(58,180,72,1) 0%, rgba(29,240,253,1) 50%, rgba(69,85,252,1) 100%);
+  text-align: center;
+  color: white;
+  overflow: hidden;
 }
 
 h2 {
-  font-size: 36px; /* Размер заголовка */
-  margin-bottom: 20px; /* Отступ снизу от заголовка */
+  padding-top: 20px;
+  font-size: 72px;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 28px; /* Размер текста */
-  margin-bottom: 20px; /* Отступ снизу от текста */
+  font-size: 56px;
+  margin-bottom: 20px;
 }
 
 button#try_again_button {
@@ -22,14 +24,23 @@ button#try_again_button {
   padding: 16px 32px;
   border: none;
   border-radius: 24px;
-  margin-top: 16px;
-  font-size: 24px;
+  margin-top: 70px;
+  font-size: 48px;
   cursor: pointer;
 }
 
 .cross {
-    position: absolute;
-    font-size: 60px; /* Размер крестика */
-    color: rgba(232, 32, 14, 1); /* Цвет крестика */
-    animation: fall 2s ease; /* Применяем анимацию к элементу на протяжении 2 секунд с эффектом ease */
+  position: absolute;
+  font-size: 60px; /* Размер крестика */
+  color: rgba(232, 32, 14, 1); /* Цвет крестика */
+  animation: fall 2s ease; /* Применяем анимацию к элементу на протяжении 2 секунд с эффектом ease */
+}
+
+#table {
+  background: rgb(58,180,72);
+  background: linear-gradient(90deg, rgba(58,180,72,1) 0%, rgba(29,240,253,1) 50%, rgba(69,85,252,1) 100%);
+  width: 1000px;
+  height: 540px;
+  margin: 0 auto;
+  border-radius: 80px;
 }

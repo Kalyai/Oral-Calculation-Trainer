@@ -1,26 +1,26 @@
 body {
   font-family: Trebuchet MS, sans-serif;
-  background-color: #aec8e2;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 50%, rgba(70,251,252,1) 100%);
   text-align: center;
-  padding: 20px;
   color: white;
 }
 
 h2 {
-  font-size: 45px; /* Размер заголовка */
-  margin-bottom: 60px; /* Отступ снизу от заголовка */
+  font-size: 77.5px;
+  margin-bottom: 200px;
 }
 
 form {
-  display: inline-block; /* Делаем форму блочным элементом */
+  display: inline-block;
 }
 
 input[type="text"],
 input[type="number"] {
-  padding: 16px; /* Увеличиваем внутренний отступ для текстовых полей */
-  border: 2px solid #f4c430; /* Устанавливаем цвет рамки */
-  border-radius: 64px; /* Задаем радиус границы */
-  font-size: 20px; /* Увеличиваем размер текста */
+  padding: 16px;
+  border: 2px solid #f4c430;
+  border-radius: 64px;
+  font-size: 25px;
 }
 
 button[type="submit"] {
@@ -28,12 +28,12 @@ button[type="submit"] {
   color: white;
   padding: 18px 36px;
   border: none;
-  border-radius: 18px;
+  border-radius: 64px;
   cursor: pointer;
-  font-size: 20px; /* Размер кнопки */
-  margin-top: 30px; /* Отступ сверху кнопки */
+  font-size: 25px;
+  margin-top: 60px;
 }
 
 label {
-  font-size: 30px; /* Увеличиваем размер текста для меток */
+  font-size: 45px;
 }
