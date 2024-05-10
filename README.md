@@ -40,7 +40,7 @@
 ## Скрины
 <img src="screenshots/scr1.png" alt="Screenshot" width="400" height="200">  
 <img src="screenshots/scr2.png" alt="Screenshot" width="400" height="200">   
-<img src="screenshots/scr3.png" alt="Screenshot" width="400" height="200">
+<img src="screenshots/scr3.png" alt="Screenshot" width="400" height="200">  
 <img src="screenshots/scr4.png" alt="Screenshot" width="400" height="200">  
 <img src="screenshots/scr5.png" alt="Screenshot" width="400" height="200">   
 <img src="screenshots/scr6.png" alt="Screenshot" width="400" height="200">  
